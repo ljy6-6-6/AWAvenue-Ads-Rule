@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 1688
+!Total lines: 1772
 !Version: 1.6.8-release
-!Update time: 2025-08-23 21:27:14 UTC+8
-!Update content: 删除多余空格
+!Update time: 2026-01-09 19:32:38 UTC+8
+!Update content: Update build.yaml
 
 !Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 !License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
@@ -55,6 +55,12 @@ ip dns static add address=240.0.0.1 name=ad.gameley.com
 ip dns static add address=:: name=ad.gameley.com
 ip dns static add address=240.0.0.1 name=ad.hpplay.cn
 ip dns static add address=:: name=ad.hpplay.cn
+ip dns static add address=240.0.0.1 name=ad.iot.360.cn
+ip dns static add address=:: name=ad.iot.360.cn
+ip dns static add address=240.0.0.1 name=ad.jia.360.cn
+ip dns static add address=:: name=ad.jia.360.cn
+ip dns static add address=240.0.0.1 name=ad.life.360.cn
+ip dns static add address=:: name=ad.life.360.cn
 ip dns static add address=240.0.0.1 name=ad.partner.gifshow.com
 ip dns static add address=:: name=ad.partner.gifshow.com
 ip dns static add address=240.0.0.1 name=ad.qingting.fm
@@ -63,6 +69,10 @@ ip dns static add address=240.0.0.1 name=ad.qq.com
 ip dns static add address=:: name=ad.qq.com
 ip dns static add address=240.0.0.1 name=ad.richmob.cn
 ip dns static add address=:: name=ad.richmob.cn
+ip dns static add address=240.0.0.1 name=ad.shenshiads.com
+ip dns static add address=:: name=ad.shenshiads.com
+ip dns static add address=240.0.0.1 name=ad.shunchangzhixing.com
+ip dns static add address=:: name=ad.shunchangzhixing.com
 ip dns static add address=240.0.0.1 name=ad.tencentmusic.com
 ip dns static add address=:: name=ad.tencentmusic.com
 ip dns static add address=240.0.0.1 name=ad.toutiao.com
@@ -73,6 +83,8 @@ ip dns static add address=240.0.0.1 name=ad.winrar.com.cn
 ip dns static add address=:: name=ad.winrar.com.cn
 ip dns static add address=240.0.0.1 name=ad.ximalaya.com
 ip dns static add address=:: name=ad.ximalaya.com
+ip dns static add address=240.0.0.1 name=ad.xunkids.com
+ip dns static add address=:: name=ad.xunkids.com
 ip dns static add address=240.0.0.1 name=ad.zijieapi.com
 ip dns static add address=:: name=ad.zijieapi.com
 ip dns static add address=240.0.0.1 name=adapi.izuiyou.com
@@ -81,6 +93,10 @@ ip dns static add address=240.0.0.1 name=adapi.yynetwk.com
 ip dns static add address=:: name=adapi.yynetwk.com
 ip dns static add address=240.0.0.1 name=adashbc.ut.taobao.com
 ip dns static add address=:: name=adashbc.ut.taobao.com
+ip dns static add address=240.0.0.1 name=adashx.m.taobao.com
+ip dns static add address=:: name=adashx.m.taobao.com
+ip dns static add address=240.0.0.1 name=adashxgc.ut.taobao.com
+ip dns static add address=:: name=adashxgc.ut.taobao.com
 ip dns static add address=240.0.0.1 name=adc.hpplay.cn
 ip dns static add address=:: name=adc.hpplay.cn
 ip dns static add address=240.0.0.1 name=adcdn.hpplay.cn
@@ -141,6 +157,8 @@ ip dns static add address=240.0.0.1 name=ads-video-qc.xhscdn.com
 ip dns static add address=:: name=ads-video-qc.xhscdn.com
 ip dns static add address=240.0.0.1 name=ads.95516.com
 ip dns static add address=:: name=ads.95516.com
+ip dns static add address=240.0.0.1 name=ads.cup.com.cn
+ip dns static add address=:: name=ads.cup.com.cn
 ip dns static add address=240.0.0.1 name=ads.google.cn
 ip dns static add address=:: name=ads.google.cn
 ip dns static add address=240.0.0.1 name=ads.huan.tv
@@ -201,8 +219,6 @@ ip dns static add address=240.0.0.1 name=adsense.google.cn
 ip dns static add address=:: name=adsense.google.cn
 ip dns static add address=240.0.0.1 name=adserver.unityads.unity3d.com
 ip dns static add address=:: name=adserver.unityads.unity3d.com
-ip dns static add address=240.0.0.1 name=adservice.google.cn
-ip dns static add address=:: name=adservice.google.cn
 ip dns static add address=240.0.0.1 name=adservice.google.com
 ip dns static add address=:: name=adservice.google.com
 ip dns static add address=240.0.0.1 name=adservice.sigmob.cn
@@ -249,6 +265,10 @@ ip dns static add address=240.0.0.1 name=adtech.yahooinc.com
 ip dns static add address=:: name=adtech.yahooinc.com
 ip dns static add address=240.0.0.1 name=adtrack.quark.cn
 ip dns static add address=:: name=adtrack.quark.cn
+ip dns static add address=240.0.0.1 name=adtracker.medproad.com
+ip dns static add address=:: name=adtracker.medproad.com
+ip dns static add address=240.0.0.1 name=adv-api.shenshiads.com
+ip dns static add address=:: name=adv-api.shenshiads.com
 ip dns static add address=240.0.0.1 name=adv.sec.intl.miui.com
 ip dns static add address=:: name=adv.sec.intl.miui.com
 ip dns static add address=240.0.0.1 name=adv.sec.miui.com
@@ -271,6 +291,8 @@ ip dns static add address=240.0.0.1 name=adview.cn
 ip dns static add address=:: name=adview.cn
 ip dns static add address=240.0.0.1 name=adx-ad.smart-tv.cn
 ip dns static add address=:: name=adx-ad.smart-tv.cn
+ip dns static add address=240.0.0.1 name=adx-api.jinmo.tech
+ip dns static add address=:: name=adx-api.jinmo.tech
 ip dns static add address=240.0.0.1 name=adx-bj-req.anythinktech.com
 ip dns static add address=:: name=adx-bj-req.anythinktech.com
 ip dns static add address=240.0.0.1 name=adx-bj.anythinktech.com
@@ -283,6 +305,8 @@ ip dns static add address=240.0.0.1 name=adx-open-service.youku.com
 ip dns static add address=:: name=adx-open-service.youku.com
 ip dns static add address=240.0.0.1 name=adx-os.anythinktech.com
 ip dns static add address=:: name=adx-os.anythinktech.com
+ip dns static add address=240.0.0.1 name=adx-saas.advlion.com
+ip dns static add address=:: name=adx-saas.advlion.com
 ip dns static add address=240.0.0.1 name=adx.ads.heytapmobi.com
 ip dns static add address=:: name=adx.ads.heytapmobi.com
 ip dns static add address=240.0.0.1 name=adx.ads.oppomobile.com
@@ -333,6 +357,8 @@ ip dns static add address=240.0.0.1 name=analytics-api.samsunghealthcn.com
 ip dns static add address=:: name=analytics-api.samsunghealthcn.com
 ip dns static add address=240.0.0.1 name=analytics.adjust.cn
 ip dns static add address=:: name=analytics.adjust.cn
+ip dns static add address=240.0.0.1 name=analytics.oceanengine.com
+ip dns static add address=:: name=analytics.oceanengine.com
 ip dns static add address=240.0.0.1 name=analytics.pinterest.com
 ip dns static add address=:: name=analytics.pinterest.com
 ip dns static add address=240.0.0.1 name=analytics.pointdrive.linkedin.com
@@ -351,8 +377,6 @@ ip dns static add address=240.0.0.1 name=analyticsengine.s3.amazonaws.com
 ip dns static add address=:: name=analyticsengine.s3.amazonaws.com
 ip dns static add address=240.0.0.1 name=analyze.lemurbrowser.com
 ip dns static add address=:: name=analyze.lemurbrowser.com
-ip dns static add address=240.0.0.1 name=android.bugly.qq.com
-ip dns static add address=:: name=android.bugly.qq.com
 ip dns static add address=240.0.0.1 name=andrqd.play.aiseet.atianqi.com
 ip dns static add address=:: name=andrqd.play.aiseet.atianqi.com
 ip dns static add address=240.0.0.1 name=ap.dongdianqiu.com
@@ -377,8 +401,12 @@ ip dns static add address=240.0.0.1 name=api-access.pangolin-sdk-toutiao4.com
 ip dns static add address=:: name=api-access.pangolin-sdk-toutiao4.com
 ip dns static add address=240.0.0.1 name=api-access.pangolin-sdk-toutiao5.com
 ip dns static add address=:: name=api-access.pangolin-sdk-toutiao5.com
+ip dns static add address=240.0.0.1 name=api-ad-data.kajicam.com
+ip dns static add address=:: name=api-ad-data.kajicam.com
 ip dns static add address=240.0.0.1 name=api-ad-product.huxiu.com
 ip dns static add address=:: name=api-ad-product.huxiu.com
+ip dns static add address=240.0.0.1 name=api-ad.kajicam.com
+ip dns static add address=:: name=api-ad.kajicam.com
 ip dns static add address=240.0.0.1 name=api-adservices.apple.com
 ip dns static add address=:: name=api-adservices.apple.com
 ip dns static add address=240.0.0.1 name=api-gd.hiaiabc.com
@@ -389,6 +417,8 @@ ip dns static add address=240.0.0.1 name=api.ad.xiaomi.com
 ip dns static add address=:: name=api.ad.xiaomi.com
 ip dns static add address=240.0.0.1 name=api.anythinktech.com
 ip dns static add address=:: name=api.anythinktech.com
+ip dns static add address=240.0.0.1 name=api.aqyad.com
+ip dns static add address=:: name=api.aqyad.com
 ip dns static add address=240.0.0.1 name=api.e.kuaishou.com
 ip dns static add address=:: name=api.e.kuaishou.com
 ip dns static add address=240.0.0.1 name=api.fu.xcultur.com
@@ -403,6 +433,8 @@ ip dns static add address=240.0.0.1 name=api.jietuhb.com
 ip dns static add address=:: name=api.jietuhb.com
 ip dns static add address=240.0.0.1 name=api.kingdata.ksyun.com
 ip dns static add address=:: name=api.kingdata.ksyun.com
+ip dns static add address=240.0.0.1 name=api.shanghailingye.cn
+ip dns static add address=:: name=api.shanghailingye.cn
 ip dns static add address=240.0.0.1 name=api.ssp.xcultur.com
 ip dns static add address=:: name=api.ssp.xcultur.com
 ip dns static add address=240.0.0.1 name=api.statsig.com
@@ -419,6 +451,8 @@ ip dns static add address=240.0.0.1 name=app-measurement.com
 ip dns static add address=:: name=app-measurement.com
 ip dns static add address=240.0.0.1 name=appcfg.v.qq.com
 ip dns static add address=:: name=appcfg.v.qq.com
+ip dns static add address=240.0.0.1 name=applog-perf.uc.cn
+ip dns static add address=:: name=applog-perf.uc.cn
 ip dns static add address=240.0.0.1 name=applog.lc.quark.cn
 ip dns static add address=:: name=applog.lc.quark.cn
 ip dns static add address=240.0.0.1 name=applog.uc.cn
@@ -429,6 +463,8 @@ ip dns static add address=240.0.0.1 name=applovin.com
 ip dns static add address=:: name=applovin.com
 ip dns static add address=240.0.0.1 name=appversion.115.com
 ip dns static add address=:: name=appversion.115.com
+ip dns static add address=240.0.0.1 name=aqyad.com
+ip dns static add address=:: name=aqyad.com
 ip dns static add address=240.0.0.1 name=aspect-upush.umeng.com
 ip dns static add address=:: name=aspect-upush.umeng.com
 ip dns static add address=240.0.0.1 name=auction.unityads.unity3d.com
@@ -475,12 +511,18 @@ ip dns static add address=240.0.0.1 name=bingads.microsoft.com
 ip dns static add address=:: name=bingads.microsoft.com
 ip dns static add address=240.0.0.1 name=biz.weibo.com
 ip dns static add address=:: name=biz.weibo.com
+ip dns static add address=240.0.0.1 name=bj-td-menta-01-callback.advlion.com
+ip dns static add address=:: name=bj-td-menta-01-callback.advlion.com
 ip dns static add address=240.0.0.1 name=bj.ad.track.66mobi.com
 ip dns static add address=:: name=bj.ad.track.66mobi.com
 ip dns static add address=240.0.0.1 name=books-analytics-events.apple.com
 ip dns static add address=:: name=books-analytics-events.apple.com
 ip dns static add address=240.0.0.1 name=bootpreload.uve.weibo.com
 ip dns static add address=:: name=bootpreload.uve.weibo.com
+ip dns static add address=240.0.0.1 name=browser.events.data.msn.cn
+ip dns static add address=:: name=browser.events.data.msn.cn
+ip dns static add address=240.0.0.1 name=browser.events.data.msn.com
+ip dns static add address=:: name=browser.events.data.msn.com
 ip dns static add address=240.0.0.1 name=browsercfg-drcn.cloud.dbankcloud.cn
 ip dns static add address=:: name=browsercfg-drcn.cloud.dbankcloud.cn
 ip dns static add address=240.0.0.1 name=bsrv.qq.com
@@ -491,6 +533,8 @@ ip dns static add address=240.0.0.1 name=business-api.tiktok.com
 ip dns static add address=:: name=business-api.tiktok.com
 ip dns static add address=240.0.0.1 name=c.bidtoolads.com
 ip dns static add address=:: name=c.bidtoolads.com
+ip dns static add address=240.0.0.1 name=c.etoolads.cn
+ip dns static add address=:: name=c.etoolads.cn
 ip dns static add address=240.0.0.1 name=c.evidon.com
 ip dns static add address=:: name=c.evidon.com
 ip dns static add address=240.0.0.1 name=c.gj.qq.com
@@ -511,8 +555,6 @@ ip dns static add address=240.0.0.1 name=ccc-x.jd.com
 ip dns static add address=:: name=ccc-x.jd.com
 ip dns static add address=240.0.0.1 name=ccs.umeng.com
 ip dns static add address=:: name=ccs.umeng.com
-ip dns static add address=240.0.0.1 name=cctv.adsunion.com
-ip dns static add address=:: name=cctv.adsunion.com
 ip dns static add address=240.0.0.1 name=cdn-ad.wtzw.com
 ip dns static add address=:: name=cdn-ad.wtzw.com
 ip dns static add address=240.0.0.1 name=cdn-ads.oss-cn-shanghai.aliyuncs.com
@@ -539,8 +581,6 @@ ip dns static add address=240.0.0.1 name=chat1.jd.com
 ip dns static add address=:: name=chat1.jd.com
 ip dns static add address=240.0.0.1 name=chiq-cloud.com
 ip dns static add address=:: name=chiq-cloud.com
-ip dns static add address=240.0.0.1 name=cj.qidian.com
-ip dns static add address=:: name=cj.qidian.com
 ip dns static add address=240.0.0.1 name=ck.ads.oppomobile.com
 ip dns static add address=:: name=ck.ads.oppomobile.com
 ip dns static add address=240.0.0.1 name=click.chinaliftoff.io
@@ -555,6 +595,8 @@ ip dns static add address=240.0.0.1 name=click4.chinaliftoff.io
 ip dns static add address=:: name=click4.chinaliftoff.io
 ip dns static add address=240.0.0.1 name=clog.miguvideo.com
 ip dns static add address=:: name=clog.miguvideo.com
+ip dns static add address=240.0.0.1 name=cloooud.com
+ip dns static add address=:: name=cloooud.com
 ip dns static add address=240.0.0.1 name=cn-api.anythinktech.com
 ip dns static add address=:: name=cn-api.anythinktech.com
 ip dns static add address=240.0.0.1 name=cnlogs.umeng.com
@@ -585,8 +627,6 @@ ip dns static add address=240.0.0.1 name=crashlyticsreports-pa.googleapis.com
 ip dns static add address=:: name=crashlyticsreports-pa.googleapis.com
 ip dns static add address=240.0.0.1 name=csjplatform.com
 ip dns static add address=:: name=csjplatform.com
-ip dns static add address=240.0.0.1 name=cws-cctv.conviva.com
-ip dns static add address=:: name=cws-cctv.conviva.com
 ip dns static add address=240.0.0.1 name=d.applovin.com
 ip dns static add address=:: name=d.applovin.com
 ip dns static add address=240.0.0.1 name=d.applvn.com
@@ -615,8 +655,6 @@ ip dns static add address=240.0.0.1 name=diagnosis.ad.xiaomi.com
 ip dns static add address=:: name=diagnosis.ad.xiaomi.com
 ip dns static add address=240.0.0.1 name=dig.bdurl.net
 ip dns static add address=:: name=dig.bdurl.net
-ip dns static add address=240.0.0.1 name=dl.zuimeitianqi.com
-ip dns static add address=:: name=dl.zuimeitianqi.com
 ip dns static add address=240.0.0.1 name=dlogs.bwton.com
 ip dns static add address=:: name=dlogs.bwton.com
 ip dns static add address=240.0.0.1 name=dm.toutiao.com
@@ -651,12 +689,10 @@ ip dns static add address=240.0.0.1 name=edge.ads.twitch.tv
 ip dns static add address=:: name=edge.ads.twitch.tv
 ip dns static add address=240.0.0.1 name=ef-dongfeng.tanx.com
 ip dns static add address=:: name=ef-dongfeng.tanx.com
+ip dns static add address=240.0.0.1 name=engine.dcad01.com
+ip dns static add address=:: name=engine.dcad01.com
 ip dns static add address=240.0.0.1 name=entry.baidu.com
 ip dns static add address=:: name=entry.baidu.com
-ip dns static add address=240.0.0.1 name=errlog.umeng.com
-ip dns static add address=:: name=errlog.umeng.com
-ip dns static add address=240.0.0.1 name=errnewlog.umeng.com
-ip dns static add address=:: name=errnewlog.umeng.com
 ip dns static add address=240.0.0.1 name=et-eus.w.inmobi.com
 ip dns static add address=:: name=et-eus.w.inmobi.com
 ip dns static add address=240.0.0.1 name=event.tradplusad.com
@@ -667,6 +703,8 @@ ip dns static add address=240.0.0.1 name=events.reddit.com
 ip dns static add address=:: name=events.reddit.com
 ip dns static add address=240.0.0.1 name=events.redditmedia.com
 ip dns static add address=:: name=events.redditmedia.com
+ip dns static add address=240.0.0.1 name=fancyapi.com
+ip dns static add address=:: name=fancyapi.com
 ip dns static add address=240.0.0.1 name=fclog.baidu.com
 ip dns static add address=:: name=fclog.baidu.com
 ip dns static add address=240.0.0.1 name=feed-image.baidu.com
@@ -679,8 +717,6 @@ ip dns static add address=240.0.0.1 name=flurry.com
 ip dns static add address=:: name=flurry.com
 ip dns static add address=240.0.0.1 name=frontend-perf-service.e.kuaishou.com
 ip dns static add address=:: name=frontend-perf-service.e.kuaishou.com
-ip dns static add address=240.0.0.1 name=fundingchoicesmessages.google.com
-ip dns static add address=:: name=fundingchoicesmessages.google.com
 ip dns static add address=240.0.0.1 name=fxgate.baidu.com
 ip dns static add address=:: name=fxgate.baidu.com
 ip dns static add address=240.0.0.1 name=g-adnet.hiaiabc.com
@@ -689,6 +725,8 @@ ip dns static add address=240.0.0.1 name=g-staic.ganjingworld.com
 ip dns static add address=:: name=g-staic.ganjingworld.com
 ip dns static add address=240.0.0.1 name=g.dtv.cn.miaozhen.com
 ip dns static add address=:: name=g.dtv.cn.miaozhen.com
+ip dns static add address=240.0.0.1 name=g.fancyapi.com
+ip dns static add address=:: name=g.fancyapi.com
 ip dns static add address=240.0.0.1 name=g2.ganjing.world
 ip dns static add address=:: name=g2.ganjing.world
 ip dns static add address=240.0.0.1 name=game.loveota.com
@@ -701,8 +739,6 @@ ip dns static add address=240.0.0.1 name=geo.yahoo.com
 ip dns static add address=:: name=geo.yahoo.com
 ip dns static add address=240.0.0.1 name=getui.cn
 ip dns static add address=:: name=getui.cn
-ip dns static add address=240.0.0.1 name=getui.com
-ip dns static add address=:: name=getui.com
 ip dns static add address=240.0.0.1 name=ggx.cmvideo.cn
 ip dns static add address=:: name=ggx.cmvideo.cn
 ip dns static add address=240.0.0.1 name=ggx01.miguvideo.com
@@ -715,8 +751,6 @@ ip dns static add address=240.0.0.1 name=google-analytics.com
 ip dns static add address=:: name=google-analytics.com
 ip dns static add address=240.0.0.1 name=googleads.g.doubleclick-cn.net
 ip dns static add address=:: name=googleads.g.doubleclick-cn.net
-ip dns static add address=240.0.0.1 name=googleads.g.doubleclick.com
-ip dns static add address=:: name=googleads.g.doubleclick.com
 ip dns static add address=240.0.0.1 name=googleads.g.doubleclick.net
 ip dns static add address=:: name=googleads.g.doubleclick.net
 ip dns static add address=240.0.0.1 name=googleadservices-cn.com
@@ -801,6 +835,8 @@ ip dns static add address=240.0.0.1 name=iad.g.163.com
 ip dns static add address=:: name=iad.g.163.com
 ip dns static add address=240.0.0.1 name=iadctest.qwapi.com
 ip dns static add address=:: name=iadctest.qwapi.com
+ip dns static add address=240.0.0.1 name=iadmusicmat.music.126.net
+ip dns static add address=:: name=iadmusicmat.music.126.net
 ip dns static add address=240.0.0.1 name=iadsdk.apple.com
 ip dns static add address=:: name=iadsdk.apple.com
 ip dns static add address=240.0.0.1 name=iadworkbench.apple.com
@@ -847,8 +883,6 @@ ip dns static add address=240.0.0.1 name=ipv4.kkmh.com
 ip dns static add address=:: name=ipv4.kkmh.com
 ip dns static add address=240.0.0.1 name=irc.qubiankeji.com
 ip dns static add address=:: name=irc.qubiankeji.com
-ip dns static add address=240.0.0.1 name=itv2-up.openspeech.cn
-ip dns static add address=:: name=itv2-up.openspeech.cn
 ip dns static add address=240.0.0.1 name=ixav-cse.avlyun.com
 ip dns static add address=:: name=ixav-cse.avlyun.com
 ip dns static add address=240.0.0.1 name=iyfbodn.com
@@ -883,6 +917,8 @@ ip dns static add address=240.0.0.1 name=ks.ferlytc.com
 ip dns static add address=:: name=ks.ferlytc.com
 ip dns static add address=240.0.0.1 name=ks.pull.yximgs.com
 ip dns static add address=:: name=ks.pull.yximgs.com
+ip dns static add address=240.0.0.1 name=l6.fancyapi.com
+ip dns static add address=:: name=l6.fancyapi.com
 ip dns static add address=240.0.0.1 name=launcher.smart-tv.cn
 ip dns static add address=:: name=launcher.smart-tv.cn
 ip dns static add address=240.0.0.1 name=launcherimg.smart-tv.cn
@@ -891,6 +927,8 @@ ip dns static add address=240.0.0.1 name=lf3-ad-union-sdk.pglstatp-toutiao.com
 ip dns static add address=:: name=lf3-ad-union-sdk.pglstatp-toutiao.com
 ip dns static add address=240.0.0.1 name=lf6-ad-union-sdk.pglstatp-toutiao.com
 ip dns static add address=:: name=lf6-ad-union-sdk.pglstatp-toutiao.com
+ip dns static add address=240.0.0.1 name=lftxali.fancyapi.com
+ip dns static add address=:: name=lftxali.fancyapi.com
 ip dns static add address=240.0.0.1 name=lh3.googleadsserving.cn
 ip dns static add address=:: name=lh3.googleadsserving.cn
 ip dns static add address=240.0.0.1 name=litchiads.com
@@ -949,6 +987,8 @@ ip dns static add address=240.0.0.1 name=log.fc.yahoo.com
 ip dns static add address=:: name=log.fc.yahoo.com
 ip dns static add address=240.0.0.1 name=log.iflytek.com
 ip dns static add address=:: name=log.iflytek.com
+ip dns static add address=240.0.0.1 name=log.ireader.com
+ip dns static add address=:: name=log.ireader.com
 ip dns static add address=240.0.0.1 name=log.kuwo.cn
 ip dns static add address=:: name=log.kuwo.cn
 ip dns static add address=240.0.0.1 name=log.pinterest.com
@@ -973,6 +1013,8 @@ ip dns static add address=240.0.0.1 name=logbak.hicloud.com
 ip dns static add address=:: name=logbak.hicloud.com
 ip dns static add address=240.0.0.1 name=logrcv.aiclk.com
 ip dns static add address=:: name=logrcv.aiclk.com
+ip dns static add address=240.0.0.1 name=logrcv.yunxish.com
+ip dns static add address=:: name=logrcv.yunxish.com
 ip dns static add address=240.0.0.1 name=logs.amap.com
 ip dns static add address=:: name=logs.amap.com
 ip dns static add address=240.0.0.1 name=logservice.hicloud.com
@@ -983,6 +1025,8 @@ ip dns static add address=240.0.0.1 name=logtj.kugou.com
 ip dns static add address=:: name=logtj.kugou.com
 ip dns static add address=240.0.0.1 name=logupdate.avlyun.sec.miui.com
 ip dns static add address=:: name=logupdate.avlyun.sec.miui.com
+ip dns static add address=240.0.0.1 name=logwebs.kugou.com
+ip dns static add address=:: name=logwebs.kugou.com
 ip dns static add address=240.0.0.1 name=luimg.baidu.com
 ip dns static add address=:: name=luimg.baidu.com
 ip dns static add address=240.0.0.1 name=m-adnet.hiaiabc.com
@@ -991,8 +1035,8 @@ ip dns static add address=240.0.0.1 name=m.ad.zhangyue.com
 ip dns static add address=:: name=m.ad.zhangyue.com
 ip dns static add address=240.0.0.1 name=m.atm.youku.com
 ip dns static add address=:: name=m.atm.youku.com
-ip dns static add address=240.0.0.1 name=m.iqiyipic.com
-ip dns static add address=:: name=m.iqiyipic.com
+ip dns static add address=240.0.0.1 name=m.shenshiads.com
+ip dns static add address=:: name=m.shenshiads.com
 ip dns static add address=240.0.0.1 name=m1.ad.10010.com
 ip dns static add address=:: name=m1.ad.10010.com
 ip dns static add address=240.0.0.1 name=mapi.m.jd.com
@@ -1005,6 +1049,8 @@ ip dns static add address=240.0.0.1 name=mbdlog.iqiyi.com
 ip dns static add address=:: name=mbdlog.iqiyi.com
 ip dns static add address=240.0.0.1 name=mcs.zijieapi.com
 ip dns static add address=:: name=mcs.zijieapi.com
+ip dns static add address=240.0.0.1 name=medproad.com
+ip dns static add address=:: name=medproad.com
 ip dns static add address=240.0.0.1 name=metrics.data.hicloud.com
 ip dns static add address=:: name=metrics.data.hicloud.com
 ip dns static add address=240.0.0.1 name=metrics.icloud.com
@@ -1029,8 +1075,6 @@ ip dns static add address=240.0.0.1 name=miui-fxcse.avlyun.com
 ip dns static add address=:: name=miui-fxcse.avlyun.com
 ip dns static add address=240.0.0.1 name=mlog.bigda.com
 ip dns static add address=:: name=mlog.bigda.com
-ip dns static add address=240.0.0.1 name=mmgame.qpic.cn
-ip dns static add address=:: name=mmgame.qpic.cn
 ip dns static add address=240.0.0.1 name=mnqlog.ldmnq.com
 ip dns static add address=:: name=mnqlog.ldmnq.com
 ip dns static add address=240.0.0.1 name=moatads.com
@@ -1047,12 +1091,16 @@ ip dns static add address=240.0.0.1 name=mobile.da.mgtv.com
 ip dns static add address=:: name=mobile.da.mgtv.com
 ip dns static add address=240.0.0.1 name=mobilead.kuwo.cn
 ip dns static add address=:: name=mobilead.kuwo.cn
+ip dns static add address=240.0.0.1 name=mobilelog.kugou.com
+ip dns static add address=:: name=mobilelog.kugou.com
 ip dns static add address=240.0.0.1 name=mobilelog.upqzfile.com
 ip dns static add address=:: name=mobilelog.upqzfile.com
 ip dns static add address=240.0.0.1 name=monitor-ads-test.huan.tv
 ip dns static add address=:: name=monitor-ads-test.huan.tv
 ip dns static add address=240.0.0.1 name=monitor-uu.play.aiseet.atianqi.com
 ip dns static add address=:: name=monitor-uu.play.aiseet.atianqi.com
+ip dns static add address=240.0.0.1 name=monitor.adxsenmeng.com
+ip dns static add address=:: name=monitor.adxsenmeng.com
 ip dns static add address=240.0.0.1 name=monitor.music.qq.com
 ip dns static add address=:: name=monitor.music.qq.com
 ip dns static add address=240.0.0.1 name=monitor.uu.qq.com
@@ -1099,6 +1147,8 @@ ip dns static add address=240.0.0.1 name=ogads-pa.clients6.google.com
 ip dns static add address=:: name=ogads-pa.clients6.google.com
 ip dns static add address=240.0.0.1 name=omgmta.play.aiseet.atianqi.com
 ip dns static add address=:: name=omgmta.play.aiseet.atianqi.com
+ip dns static add address=240.0.0.1 name=open-set-api.shenshiads.com
+ip dns static add address=:: name=open-set-api.shenshiads.com
 ip dns static add address=240.0.0.1 name=open.e.kuaishou.cn
 ip dns static add address=:: name=open.e.kuaishou.cn
 ip dns static add address=240.0.0.1 name=open.e.kuaishou.com
@@ -1109,6 +1159,8 @@ ip dns static add address=240.0.0.1 name=open.kwaizt.com
 ip dns static add address=:: name=open.kwaizt.com
 ip dns static add address=240.0.0.1 name=open.snssdk.com
 ip dns static add address=:: name=open.snssdk.com
+ip dns static add address=240.0.0.1 name=openadapi.fancydsp.com
+ip dns static add address=:: name=openadapi.fancydsp.com
 ip dns static add address=240.0.0.1 name=optimus-ads.amap.com
 ip dns static add address=:: name=optimus-ads.amap.com
 ip dns static add address=240.0.0.1 name=orbit.jd.com
@@ -1155,6 +1207,8 @@ ip dns static add address=240.0.0.1 name=p5-be-pack-sign.pglstatp-toutiao.com
 ip dns static add address=:: name=p5-be-pack-sign.pglstatp-toutiao.com
 ip dns static add address=240.0.0.1 name=p6-be-pack-sign.pglstatp-toutiao.com
 ip dns static add address=:: name=p6-be-pack-sign.pglstatp-toutiao.com
+ip dns static add address=240.0.0.1 name=p66-ad.adkwai.com
+ip dns static add address=:: name=p66-ad.adkwai.com
 ip dns static add address=240.0.0.1 name=pagead2.googleadservices.com
 ip dns static add address=:: name=pagead2.googleadservices.com
 ip dns static add address=240.0.0.1 name=pagead2.googlesyndication.com
@@ -1203,6 +1257,10 @@ ip dns static add address=240.0.0.1 name=public.gdtimg.com
 ip dns static add address=:: name=public.gdtimg.com
 ip dns static add address=240.0.0.1 name=q.i.gdt.qq.com
 ip dns static add address=:: name=q.i.gdt.qq.com
+ip dns static add address=240.0.0.1 name=qcwx.medproad.com
+ip dns static add address=:: name=qcwx.medproad.com
+ip dns static add address=240.0.0.1 name=qmlog.baertt.com
+ip dns static add address=:: name=qmlog.baertt.com
 ip dns static add address=240.0.0.1 name=qn-cdnfile1pcdn.msstatic.com
 ip dns static add address=:: name=qn-cdnfile1pcdn.msstatic.com
 ip dns static add address=240.0.0.1 name=qqdata.ab.qq.com
@@ -1225,8 +1283,6 @@ ip dns static add address=240.0.0.1 name=res3.hubcloud.com.cn
 ip dns static add address=:: name=res3.hubcloud.com.cn
 ip dns static add address=240.0.0.1 name=resolve.umeng.com
 ip dns static add address=:: name=resolve.umeng.com
-ip dns static add address=240.0.0.1 name=rev.aiclk.com
-ip dns static add address=:: name=rev.aiclk.com
 ip dns static add address=240.0.0.1 name=review.gdtimg.com
 ip dns static add address=:: name=review.gdtimg.com
 ip dns static add address=240.0.0.1 name=rlog.popin.cc
@@ -1245,22 +1301,26 @@ ip dns static add address=240.0.0.1 name=rt.applovin.com
 ip dns static add address=:: name=rt.applovin.com
 ip dns static add address=240.0.0.1 name=rt.applvn.com
 ip dns static add address=:: name=rt.applvn.com
+ip dns static add address=240.0.0.1 name=rtb.adxsenmeng.com
+ip dns static add address=:: name=rtb.adxsenmeng.com
 ip dns static add address=240.0.0.1 name=rtb.voiceads.cn
 ip dns static add address=:: name=rtb.voiceads.cn
 ip dns static add address=240.0.0.1 name=s.amazon-adsystem.com
 ip dns static add address=:: name=s.amazon-adsystem.com
+ip dns static add address=240.0.0.1 name=s1.cdn-sg.advlion.com
+ip dns static add address=:: name=s1.cdn-sg.advlion.com
 ip dns static add address=240.0.0.1 name=s8t.teads.tv
 ip dns static add address=:: name=s8t.teads.tv
 ip dns static add address=240.0.0.1 name=saad.ms.zhangyue.net
 ip dns static add address=:: name=saad.ms.zhangyue.net
 ip dns static add address=240.0.0.1 name=saas.hpplay.cn
 ip dns static add address=:: name=saas.hpplay.cn
+ip dns static add address=240.0.0.1 name=safebrowsing.urlsec.gg.com
+ip dns static add address=:: name=safebrowsing.urlsec.gg.com
 ip dns static add address=240.0.0.1 name=samsung-com.112.2o7.net
 ip dns static add address=:: name=samsung-com.112.2o7.net
 ip dns static add address=240.0.0.1 name=samsungads.com
 ip dns static add address=:: name=samsungads.com
-ip dns static add address=240.0.0.1 name=sanme2.taisantech.com
-ip dns static add address=:: name=sanme2.taisantech.com
 ip dns static add address=240.0.0.1 name=saxysec.com
 ip dns static add address=:: name=saxysec.com
 ip dns static add address=240.0.0.1 name=scs.openspeech.cn
@@ -1275,6 +1335,8 @@ ip dns static add address=240.0.0.1 name=sdk.ad.smaato.net
 ip dns static add address=:: name=sdk.ad.smaato.net
 ip dns static add address=240.0.0.1 name=sdk.adx.adwangmai.com
 ip dns static add address=:: name=sdk.adx.adwangmai.com
+ip dns static add address=240.0.0.1 name=sdk.aqyad.com
+ip dns static add address=:: name=sdk.aqyad.com
 ip dns static add address=240.0.0.1 name=sdk.beizi.biz
 ip dns static add address=:: name=sdk.beizi.biz
 ip dns static add address=240.0.0.1 name=sdk.cferw.com
@@ -1287,6 +1349,8 @@ ip dns static add address=240.0.0.1 name=sdk.markmedia.com.cn
 ip dns static add address=:: name=sdk.markmedia.com.cn
 ip dns static add address=240.0.0.1 name=sdk.mobads.adwangmai.com
 ip dns static add address=:: name=sdk.mobads.adwangmai.com
+ip dns static add address=240.0.0.1 name=sdkapi.cloooud.com
+ip dns static add address=:: name=sdkapi.cloooud.com
 ip dns static add address=240.0.0.1 name=sdkauth.hpplay.cn
 ip dns static add address=:: name=sdkauth.hpplay.cn
 ip dns static add address=240.0.0.1 name=sdkconf.avlyun.com
@@ -1301,6 +1365,8 @@ ip dns static add address=240.0.0.1 name=sdkconfig.video.qq.com
 ip dns static add address=:: name=sdkconfig.video.qq.com
 ip dns static add address=240.0.0.1 name=sdkoptedge.chinanetcenter.com
 ip dns static add address=:: name=sdkoptedge.chinanetcenter.com
+ip dns static add address=240.0.0.1 name=sdkreport.e.qq.com
+ip dns static add address=:: name=sdkreport.e.qq.com
 ip dns static add address=240.0.0.1 name=sdktmp.hubcloud.com.cn
 ip dns static add address=:: name=sdktmp.hubcloud.com.cn
 ip dns static add address=240.0.0.1 name=sdownload.stargame.com
@@ -1331,8 +1397,6 @@ ip dns static add address=240.0.0.1 name=sf3-fe-tos.pglstatp-toutiao.com
 ip dns static add address=:: name=sf3-fe-tos.pglstatp-toutiao.com
 ip dns static add address=240.0.0.1 name=shouji.sogou.com
 ip dns static add address=:: name=shouji.sogou.com
-ip dns static add address=240.0.0.1 name=sigmob.cn
-ip dns static add address=:: name=sigmob.cn
 ip dns static add address=240.0.0.1 name=sigmob.com
 ip dns static add address=:: name=sigmob.com
 ip dns static add address=240.0.0.1 name=skdisplay.jd.com
@@ -1343,8 +1407,6 @@ ip dns static add address=240.0.0.1 name=slb-p2p.vcloud.ks-live.com
 ip dns static add address=:: name=slb-p2p.vcloud.ks-live.com
 ip dns static add address=240.0.0.1 name=smad.ms.zhangyue.net
 ip dns static add address=:: name=smad.ms.zhangyue.net
-ip dns static add address=240.0.0.1 name=smart-tv.cn
-ip dns static add address=:: name=smart-tv.cn
 ip dns static add address=240.0.0.1 name=smartad.10010.com
 ip dns static add address=:: name=smartad.10010.com
 ip dns static add address=240.0.0.1 name=smetrics.samsung.com
@@ -1355,6 +1417,8 @@ ip dns static add address=240.0.0.1 name=sngmta.qq.com
 ip dns static add address=:: name=sngmta.qq.com
 ip dns static add address=240.0.0.1 name=snowflake.qq.com
 ip dns static add address=:: name=snowflake.qq.com
+ip dns static add address=240.0.0.1 name=ssp.cloooud.com
+ip dns static add address=:: name=ssp.cloooud.com
 ip dns static add address=240.0.0.1 name=staging-notify.sec.miui.com
 ip dns static add address=:: name=staging-notify.sec.miui.com
 ip dns static add address=240.0.0.1 name=stat.dongqiudi.com
@@ -1365,6 +1429,8 @@ ip dns static add address=240.0.0.1 name=static-s.iqiyi.com
 ip dns static add address=:: name=static-s.iqiyi.com
 ip dns static add address=240.0.0.1 name=static.ads-twitter.com
 ip dns static add address=:: name=static.ads-twitter.com
+ip dns static add address=240.0.0.1 name=statichf.shihuocdn.cn
+ip dns static add address=:: name=statichf.shihuocdn.cn
 ip dns static add address=240.0.0.1 name=statics.woozooo.com
 ip dns static add address=:: name=statics.woozooo.com
 ip dns static add address=240.0.0.1 name=stats.wp.com
@@ -1383,8 +1449,12 @@ ip dns static add address=240.0.0.1 name=sv-video.play.aiseet.atianqi.com
 ip dns static add address=:: name=sv-video.play.aiseet.atianqi.com
 ip dns static add address=240.0.0.1 name=syh-imp.cdnjtzy.com
 ip dns static add address=:: name=syh-imp.cdnjtzy.com
+ip dns static add address=240.0.0.1 name=syh.zybang.com
+ip dns static add address=:: name=syh.zybang.com
 ip dns static add address=240.0.0.1 name=szbdyd.com
 ip dns static add address=:: name=szbdyd.com
+ip dns static add address=240.0.0.1 name=t-adx.52qumao.com
+ip dns static add address=:: name=t-adx.52qumao.com
 ip dns static add address=240.0.0.1 name=t-dsp.pinduoduo.com
 ip dns static add address=:: name=t-dsp.pinduoduo.com
 ip dns static add address=240.0.0.1 name=t.applovin.com
@@ -1403,14 +1473,16 @@ ip dns static add address=240.0.0.1 name=t1.teads.tv
 ip dns static add address=:: name=t1.teads.tv
 ip dns static add address=240.0.0.1 name=t2.a.market.xiaomi.com
 ip dns static add address=:: name=t2.a.market.xiaomi.com
+ip dns static add address=240.0.0.1 name=t2.fancyapi.com
+ip dns static add address=:: name=t2.fancyapi.com
 ip dns static add address=240.0.0.1 name=t3.a.market.xiaomi.com
 ip dns static add address=:: name=t3.a.market.xiaomi.com
-ip dns static add address=240.0.0.1 name=t7z.cupid.iqiyi.com
-ip dns static add address=:: name=t7z.cupid.iqiyi.com
 ip dns static add address=240.0.0.1 name=t7z.cupid.ptqy.gitv.tv
 ip dns static add address=:: name=t7z.cupid.ptqy.gitv.tv
 ip dns static add address=240.0.0.1 name=tangram.e.qq.com
 ip dns static add address=:: name=tangram.e.qq.com
+ip dns static add address=240.0.0.1 name=target.ads.jihuoniao.com
+ip dns static add address=:: name=target.ads.jihuoniao.com
 ip dns static add address=240.0.0.1 name=tdc.qq.com
 ip dns static add address=:: name=tdc.qq.com
 ip dns static add address=240.0.0.1 name=tdsdk.cpatrk.net
@@ -1459,6 +1531,8 @@ ip dns static add address=240.0.0.1 name=tnc3-aliec2.snssdk.com
 ip dns static add address=:: name=tnc3-aliec2.snssdk.com
 ip dns static add address=240.0.0.1 name=tnc3-aliec2.toutiaoapi.com
 ip dns static add address=:: name=tnc3-aliec2.toutiaoapi.com
+ip dns static add address=240.0.0.1 name=tnc3-aliec2.zijieapi.com
+ip dns static add address=:: name=tnc3-aliec2.zijieapi.com
 ip dns static add address=240.0.0.1 name=tnc3-alisc1.bytedance.com
 ip dns static add address=:: name=tnc3-alisc1.bytedance.com
 ip dns static add address=240.0.0.1 name=tnc3-alisc1.snssdk.com
@@ -1487,12 +1561,16 @@ ip dns static add address=240.0.0.1 name=tpc.googlesyndication.com
 ip dns static add address=:: name=tpc.googlesyndication.com
 ip dns static add address=240.0.0.1 name=tr-asia.adsmoloco.com
 ip dns static add address=:: name=tr-asia.adsmoloco.com
+ip dns static add address=240.0.0.1 name=trace.aqyad.com
+ip dns static add address=:: name=trace.aqyad.com
 ip dns static add address=240.0.0.1 name=trace.qq.com
 ip dns static add address=:: name=trace.qq.com
 ip dns static add address=240.0.0.1 name=tracelog-debug.aiclk.com
 ip dns static add address=:: name=tracelog-debug.aiclk.com
 ip dns static add address=240.0.0.1 name=tracelog-debug.qquanquan.com
 ip dns static add address=:: name=tracelog-debug.qquanquan.com
+ip dns static add address=240.0.0.1 name=tracelog-debug.yunxish.com
+ip dns static add address=:: name=tracelog-debug.yunxish.com
 ip dns static add address=240.0.0.1 name=track.lc.quark.cn
 ip dns static add address=:: name=track.lc.quark.cn
 ip dns static add address=240.0.0.1 name=track.uc.cn
@@ -1565,6 +1643,8 @@ ip dns static add address=240.0.0.1 name=us.l.qq.com
 ip dns static add address=:: name=us.l.qq.com
 ip dns static add address=240.0.0.1 name=usr-api.aiclk.com
 ip dns static add address=:: name=usr-api.aiclk.com
+ip dns static add address=240.0.0.1 name=utoken.umeng.com
+ip dns static add address=:: name=utoken.umeng.com
 ip dns static add address=240.0.0.1 name=v.110route.cn
 ip dns static add address=:: name=v.110route.cn
 ip dns static add address=240.0.0.1 name=v.adintl.cn
@@ -1667,6 +1747,8 @@ ip dns static add address=240.0.0.1 name=wxsnsdythumb.wxs.qq.com
 ip dns static add address=:: name=wxsnsdythumb.wxs.qq.com
 ip dns static add address=240.0.0.1 name=xc.gdt.qq.com
 ip dns static add address=:: name=xc.gdt.qq.com
+ip dns static add address=240.0.0.1 name=xcx.dcad01.com
+ip dns static add address=:: name=xcx.dcad01.com
 ip dns static add address=240.0.0.1 name=xiaomi-dtv.m.cn.miaozhen.com
 ip dns static add address=:: name=xiaomi-dtv.m.cn.miaozhen.com
 ip dns static add address=240.0.0.1 name=xlog.jd.com
@@ -1695,5 +1777,7 @@ ip dns static add address=240.0.0.1 name=zeus.ad.xiaomi.com
 ip dns static add address=:: name=zeus.ad.xiaomi.com
 ip dns static add address=240.0.0.1 name=zhihu-web-analytics.zhihu.com
 ip dns static add address=:: name=zhihu-web-analytics.zhihu.com
+ip dns static add address=240.0.0.1 name=zjres-ad.kajicam.com
+ip dns static add address=:: name=zjres-ad.kajicam.com
 ip dns static add address=240.0.0.1 name=zxid-m.mobileservice.cn
 ip dns static add address=:: name=zxid-m.mobileservice.cn
