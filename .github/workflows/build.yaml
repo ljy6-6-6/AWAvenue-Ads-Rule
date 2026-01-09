@@ -5,6 +5,9 @@ on:
     branches:
       - build
 
+permissions:
+  contents: write
+
 jobs:
   execute_python_script:
     runs-on: ubuntu-latest
@@ -55,7 +58,7 @@ jobs:
 
     - name: Git push
       run: |
-        git clone "https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/${{ github.repository }}" push
+        git clone "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" push
         cp -Rf build/out/* push/
         cd push
         files=$(find . -name '*AWAvenue*')
@@ -66,7 +69,9 @@ jobs:
           git add AWAvenue-Ads-Rule.txt
           cd Filters
           git add *AWAvenue*
-          git commit -m "${{ github.event.head_commit.message }}"
+          msg="${{ github.event.head_commit.message }}"
+          [ -z "$msg" ] && msg="Update rules"
+          git commit -m "$msg"
           git push --set-upstream origin main
         fi
 
