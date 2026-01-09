@@ -33,7 +33,7 @@ jobs:
     - name: build singbox srs
       run: |
         cd build/out/Filters
-        wget -O ./sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.12.3/sing-box-1.12.3-linux-amd64.tar.gz
+        wget -O ./sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.12.15/sing-box-1.12.15-linux-amd64.tar.gz
         tar -xzvf sing-box.tar.gz
         chmod +x */sing-box
         ./*/sing-box rule-set compile --output AWAvenue-Ads-Rule-Singbox.srs AWAvenue-Ads-Rule-Singbox.json
@@ -47,6 +47,11 @@ jobs:
             chmod +x mihomo
             ./mihomo convert-ruleset domain yaml AWAvenue-Ads-Rule-Clash.yaml AWAvenue-Ads-Rule-Clash.mrs
             rm -rf *mihomo*
+
+    - name: Create AWAvenue-list.txt
+      run: |
+        cd build/out/Filters
+        ls | grep -v AWAvenue-list.txt > AWAvenue-list.txt
 
     - name: Git push
       run: |
